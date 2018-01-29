@@ -3012,8 +3012,9 @@
 /*England BG*/
 
   #logo {
+  	position: relative;
   	background: rgba(242, 242, 242, 0.5);
-  	background-size: 1em;
+  	/*background-size: 1rem;*/
   }
 
 	#logo img {
@@ -3029,8 +3030,8 @@
 	#logo h1 {
 		text-align: left;
 		font-family: 'Cinzel Decorative', cursive;
-		font-size: 75px;
-		padding: 45px 35px 25px 170px;
+		font-size: 4rem;
+		padding: 45px 35px 40px 170px;
 		color: black;
 	}
 
