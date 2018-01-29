@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative');
 
 /* Reset */
 
@@ -2480,6 +2481,7 @@
 
 	a.image {
 		overflow: hidden;
+		/*size: 50%;*/
 	}
 
 		a.image img {
@@ -2734,7 +2736,7 @@
 		}
 
 		header > h3 + p {
-			font-size: 0.9rem;
+			font-size: 1rem;
 			margin-top: -0.75rem;
 		}
 
@@ -3009,14 +3011,27 @@
 /* Wrapper */
 /*England BG*/
 
+  #logo {
+  	background: rgba(242, 242, 242, 0.5);
+  	background-size: 1em;
+  }
+
 	#logo img {
 		position: absolute;
 		padding: 0;
 		margin: 1em;
 		float: left;
-		max-width: 12%;
+		max-width: 10%;
 		height: auto;
 		cursor: pointer;
+	}
+
+	#logo h1 {
+		text-align: left;
+		font-family: 'Cinzel Decorative', cursive;
+		font-size: 75px;
+		padding: 45px 35px 25px 170px;
+		color: black;
 	}
 
 	.inner p a {
