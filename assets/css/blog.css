@@ -3602,7 +3602,7 @@
 
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 20vh;
+				min-height: 0vh;
 			}
 
 				#intro h1 {
@@ -3764,7 +3764,7 @@
 				text-align: left;
 				font-family: 'Cinzel Decorative', cursive;
 				font-size: 1.5rem;
-				padding: 30px 35px 30px 90px;
+				padding: 25px 5px 20px 75px;
 				color: black;
 			}
 
